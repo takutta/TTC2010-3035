@@ -12,18 +12,18 @@ body {
 
 #header {
     width:960px;
-    height:200px;
+    height:80px;
     background-color:antiquewhite;
     float:none
 }
 
 #header_logo, #header_center, #header_right {
-    width:308px;
+    width:318px;
     border: 1px solid #000;
     float:left;
-    height:inherit;
-    padding: 5px 5px;
+    height:78px;
     text-align:center;
+
 }
 
 #header_logo {
@@ -45,22 +45,27 @@ body {
     width: 960px;
     padding:20px 0;
     text-align:center;
-
     float:left;
+    clear:left;
     background-color:rgb(59, 59, 59);
     color:rgb(176, 176, 176)
 }
 
 #content {
-    float:none
+    float:left;
+    border: 1px solid #000;
+    background-color:white;
+    height:298px
+
 }
 
 #content_left, #content_right {
     float:left;
-    width:468px;
+    width:427px;
     border: 1px solid #000;
     padding: 5px;
-    height:150px
+    height:246px;
+    margin: 20px;
 }
 
 #content_left {
@@ -75,7 +80,9 @@ body {
     background-color:gray;
     text-align:center;
     float:left;
-    width:948px;
+    clear:left;
+    width:958px;
     border: 1px solid #000;
-    padding: 5px
+    padding: 5px 0;
+    height: 18px
 }
